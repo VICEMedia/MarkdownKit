@@ -39,6 +39,7 @@ open class MarkdownLink: MarkdownLinkElement {
     }
     guard let url = URL(string: link) ?? URL(string: encodedLink) else { return }
     attributedString.addAttribute(NSAttributedString.Key.link, value: url, range: range)
+    attributedString.addAttribute(NSAttributedString.Key.underlineStyle, value: NSUnderlineStyle.single.rawValue, range: range)
   }
   
   open func match(_ match: NSTextCheckingResult, attributedString: NSMutableAttributedString) {

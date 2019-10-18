@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name                  = "MarkdownKit"
-  s.version               = "1.5"
+  s.name                  = "VMMarkdownKit"
+  s.version               = "1.6"
   s.summary               = "MarkdownKit is a customizable and extensible Markdown parser for iOS."
   s.description           = <<-DESC
 MarkdownKit is a customizable and extensible Markdown parser for iOS.
@@ -12,7 +12,7 @@ all the Markdown elements.
   s.screenshots           = "https://raw.githubusercontent.com/bmoliveira/MarkdownKit/master/Resources/MarkdownKitExample.png"
   s.license               = {:type => "MIT", :file => "LICENSE"}
   s.author                = {"Ivan Bruel" => "ivan.bruel@gmail.com"}
-  s.source                = {:git => "https://github.com/bmoliveira/MarkdownKit.git", :tag => s.version.to_s}
+  s.source                = {:git => "https://github.com/VICEMedia/MarkdownKit.git", :tag => s.version.to_s}
   s.social_media_url      = "https://twitter.com/ivanbruel"
 
   s.source_files          = "MarkdownKit/Sources/Common/**/*"
